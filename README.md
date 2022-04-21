@@ -1,1 +1,1 @@
-# Can Opener Discord verify app
+# signing-verifying-app
