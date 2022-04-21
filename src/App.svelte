@@ -67,7 +67,7 @@ If you complete the signature successfully, we will airdrop 100 POP on the end d
   async function signVerify() {
     await connect()
     const ip = await getIp()
-    const serverURL = 'https://airdropevent.popcateum.org/signing/sign'
+    const serverURL = 'https://airdropevent.popcateum.com/signing/sign'
     // const serverURL = 'http://localhost:3000/signing/sign'
     try {
       const signing = await signer.signMessage(signMessage)
