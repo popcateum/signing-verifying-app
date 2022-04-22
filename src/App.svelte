@@ -76,6 +76,7 @@ If you complete the signature successfully, we will airdrop 100 POP on the end d
         ip: ip,
       })
       alert('verify success')
+      window.location.href = 'https://popcateum.org';
     } catch (e) {
       if (e.code === 4001) {
         alert('Signature has been cancelled.')
