@@ -17,8 +17,14 @@ If you complete the signature successfully, we will airdrop 100 POP on the end d
 `
 
   onMount(async () => {
-    await signVerify()
+    // await signVerify()
+    end()
   })
+
+  function end() {
+    alert("Airdrop event is over!")
+    window.location.href = "https://popcateum.com"
+  }
 
   async function addChain() {
     await ethereum.request({
