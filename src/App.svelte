@@ -8,22 +8,22 @@
   let signer: any
 
   const signMessage = `
-🎉Popcateum X Klaymint🎉
-Airdrop event to celebrate the partnership of Popcateum and KlayMint!
+🎉Popcateum X 시고르🎉
+Airdrop event to celebrate the partnership of Popcateum and 시고르!
 
-If you complete the signature successfully, we will airdrop 100 POP on the end date of the event.
+If you complete the signature successfully, we will airdrop 200 POP on the end date of the event.
 
-❗NOTICE: For smooth airdrop, collect ip and discard the collected ip after the event is over.❗
+❗NOTICE❗: For smooth airdrop, collect ip and discard the collected ip after the event is over.
 `
 
   onMount(async () => {
-    // await signVerify()
-    end()
+    await signVerify()
+    // end()
   })
 
   function end() {
     alert("Airdrop event is over!")
-    window.location.href = "https://popcateum.com"
+    window.location.href = "https://popcateum.org"
   }
 
   async function addChain() {
