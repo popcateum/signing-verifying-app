@@ -17,8 +17,8 @@ If you complete the signature successfully, we will airdrop 200 POP on the end d
 `
 
   onMount(async () => {
-    await signVerify()
-    // end()
+    // await signVerify()
+    end()
   })
 
   function end() {
